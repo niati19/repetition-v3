@@ -1,8 +1,8 @@
 grispris = input("Hur mycket kostar en gris? ")
-int(grispris)
+grispris = int(grispris)
 
 fågelpris = input("Hur mycket kostar en fågel? ")
-int(fågelpris)
+fågelpris = int(fågelpris)
 
 if fågelpris > grispris: 
     print("Ja, en fågel är dyrare än en gris")
